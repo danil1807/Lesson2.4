@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class ClientSupportWindow extends JFrame {
-    public ClientSupportWindow () {
+    package private ClientSupportWindow () {
         setTitle("New dialog");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setBounds(50, 100, 400, 400);
